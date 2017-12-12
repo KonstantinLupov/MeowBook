@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MeowBook.Data.Models;
+using MeowBook.Web.Infrastructure.Extensions;
 
 namespace MeowBook.Web
 {
@@ -28,10 +29,19 @@ namespace MeowBook.Web
             services.AddDbContext<MeowBookDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddIdentity<User, IdentityRole>()
+            services.AddIdentity<User, IdentityRole>(options =>
+                {
+                    options.Password.RequiredLength = 3;
+                    options.Password.RequireDigit = false;
+                    options.Password.RequireLowercase = false;
+                    options.Password.RequireNonAlphanumeric = false;
+                    options.Password.RequireUppercase = false;
+
+                })
                 .AddEntityFrameworkStores<MeowBookDbContext>()
                 .AddDefaultTokenProviders();
                 
+
               
             // Add application services.
 
@@ -41,6 +51,7 @@ namespace MeowBook.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseDatabaseMigration();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
