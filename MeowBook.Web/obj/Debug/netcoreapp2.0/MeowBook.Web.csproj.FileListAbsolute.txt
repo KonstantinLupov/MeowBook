@@ -1,0 +1,14 @@
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\obj\Debug\netcoreapp2.0\MeowBook.Web.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\obj\Debug\netcoreapp2.0\MeowBook.Web.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\obj\Debug\netcoreapp2.0\MeowBook.Web.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\obj\Debug\netcoreapp2.0\MeowBook.Web.AssemblyInfo.cs
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\bin\Debug\netcoreapp2.0\MeowBook.Web.deps.json
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\bin\Debug\netcoreapp2.0\MeowBook.Web.runtimeconfig.json
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\bin\Debug\netcoreapp2.0\MeowBook.Web.runtimeconfig.dev.json
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\bin\Debug\netcoreapp2.0\MeowBook.Web.dll
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\bin\Debug\netcoreapp2.0\MeowBook.Web.pdb
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\bin\Debug\netcoreapp2.0\MeowBook.Data.dll
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\bin\Debug\netcoreapp2.0\MeowBook.Data.pdb
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\obj\Debug\netcoreapp2.0\MeowBook.Web.dll
+C:\Users\USER\Documents\Visual Studio 2017\Projects\SoftUniWebProject\MeowBook.Web\obj\Debug\netcoreapp2.0\MeowBook.Web.pdb
